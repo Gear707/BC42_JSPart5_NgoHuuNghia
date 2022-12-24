@@ -56,7 +56,7 @@ getEle('btnResult').onclick = function () {
             alert('Điểm môn tối đa là 10.');
         }
         else if (subject1 < 0 || subject2 < 0 || subject3 < 0) {
-            alert('Điểm môn phải là một số dương.');
+            alert('Điểm môn không thể là một số âm.');
         }
         else {
             if (totalGrade >= standardGrade) {
