@@ -139,7 +139,7 @@ getEle('btnElecBill').onclick = function () {
 
 
 /* 3. Tính thuế thu nhập cá nhân */
-// Viết hàm tính thu nhập chịu thuế
+// Hàm tính thu nhập chịu thuế
 function TaxableIncome(total, people) {
     let taxableIncome = total - 4e+6 - people * 1.6e+6;
     return taxableIncome;
